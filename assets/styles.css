@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro&display=swap");
+/*utility classes*/
+:root {
+  --primary: #d81159;
+  --accent-one: #090c9b;
+  --accent-two: #0496ff;
+  --accent-three: #ffbc42;
+  --white: white;
+  --black: #111212;
+  --gray: #3c3744;
+}
+.font-display {
+  font-family: "Poppins", sans-serif;
+}
+.font-body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.black-bg {
+  background-color: var(--black);
+}
+.black-fg {
+  color: var(--black);
+}
+
+.white-bg {
+  background-color: var(--white);
+}
+.white-fg {
+  color: var(--white);
+}
+
+.primary-bg {
+  background-color: var(--primary);
+}
+.primary-fg {
+  color: var(--primary);
+}
+.accent-one-bg {
+  background-color: var(--accent-one);
+}
+.accent-one-fg {
+  color: var(--accent-one);
+}
+.accent-two-bg {
+  background-color: var(--accent-two);
+}
+.accent-two-fg {
+  color: var(--accent-two);
+}
+.accent-three-bg {
+  background-color: var(--accent-three);
+}
+.accent-three-fg {
+  color: var(--accent-three);
+}
+/*NAV*/
+nav {
+  height: 40px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  padding-left: 40px;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+nav > a {
+  margin-right: 20px;
+}
+/*HERO*/
+.hero {
+  background-image: ;
+  background-image: radial-gradient(
+      at 18% 30%,
+      hsla(339, 86%, 46%, 1) 0,
+      transparent 47%
+    ),
+    radial-gradient(at 99% 87%, hsla(239, 90%, 33%, 1) 0, transparent 55%),
+    radial-gradient(at 20% 81%, hsla(206, 100%, 51%, 1) 0, transparent 42%),
+    radial-gradient(at 90% 9%, hsla(39, 100%, 63%, 1) 0, transparent 41%),
+    radial-gradient(at 55% 44%, hsla(157, 76%, 68%, 1) 0, transparent 47%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-title {
+  width: max-content;
+  padding: 20px;
+  font-size: 3rem;
+}
+/*MAIN SECTIOn*/
+@media screen and (min-width: 600px) {
+  .description {
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .description-section {
+    width: 50%;
+  }
+}
+.description-section {
+    margin-top: 100px;
+}
+.description {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 100px;
+}
+.right {
+  margin-left: auto;
+}
+@media screen and (min-width: 600px) {
+  .svg-container {
+    display: flex;
+  }
+}
+.svg-container {
+  margin-top: 200px;
+}
+/*Footer*/
+footer {
+  display: flex;
+  padding: 50px;
+}
